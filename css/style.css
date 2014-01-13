@@ -2,16 +2,20 @@
   display: block;
 }*/
 
-#date-and-room, #room-availability, #set-booking-times, #confirm-booking{
+#date-and-room, #room-availability, #set-booking-times, #confirm-booking, #location-choice{
   display: none;
   text-align: center;
+}
+
+#schedule {
+  background: url('img/scrolling.png');
 }
 
 .phone-button {
   margin-top: 100px;
 }
 
-@media screen (max-width: 720px){
+@media (max-width: 720px){
   #date-and-room{
     display: block;
   }
@@ -19,4 +23,3 @@
     display: none;
   }
 }
-
