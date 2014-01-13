@@ -1,0 +1,16 @@
+/*#date-and-room{
+  display: block;
+}*/
+
+#date-and-room, #room-availability, #set-booking-times, #confirm-booking{
+  display: none;
+}
+
+@media (max-width: 720px){
+  #date-and-room{
+    display: block;
+  }
+  #original-booking{
+    display: none;
+  }
+}

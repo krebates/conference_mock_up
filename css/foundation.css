@@ -5097,3 +5097,31 @@ th.hide-for-touch {
   margin-top: -10px;
   margin-bottom: 5px;
 }
+
+.choose-date {
+  margin-bottom: 5px;
+}
+
+.top-bar {
+  position: fixed;
+  top: auto;
+  width: 100%;
+  height: 20%;
+  z-index: 100;
+  background-color: lightgrey;
+}
+
+.scrolling-calendar {
+  position: relative;
+  top: 94px;
+}
+
+.bottom-bar {
+  position: fixed;
+  background-color: white;
+  top: 80%;
+  z-index: 100;
+  width: 100%;
+  padding-bottom: 20%;
+  background-color: lightgrey;
+}
