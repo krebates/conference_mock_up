@@ -1,4 +1,7 @@
 $(function(){
+
+    $('.datepicker').pickadate();
+
   $('button').click(function(e){
     var $button = $(e.target);
     handleEvent($button);
