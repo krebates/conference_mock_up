@@ -1,6 +1,19 @@
 $(function(){
 
+<<<<<<< HEAD
     $('.datepicker').pickadate();
+=======
+  $('.datepicker').pickadate({
+    min: new Date(2014,0,13)
+  });
+
+  $('.timepicker').pickatime({
+    min: [6,00],
+    max: [23,30],
+    disable: [3, 5, 7],
+    interval: 15
+  });
+>>>>>>> e56f815ff8d7d0027ad73feb941d38107b93ce1f
 
   $('button').click(function(e){
     var $button = $(e.target);

@@ -5,30 +5,65 @@
   <link rel="stylesheet" type="text/css" href="css/default.css">
   <link rel="stylesheet" type="text/css" href="css/default.time.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/default.date.css">
+  <link rel="stylesheet" type="text/css" href="css/default.time.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div id='original-booking'>
+<<<<<<< HEAD
     <h1>Original booking form</h1>
     <input class="datepicker" placeholder="Pick a Date">
+=======
+    <h2>Original booking form</h2>
+>>>>>>> e56f815ff8d7d0027ad73feb941d38107b93ce1f
   </div>
+
   <div id='date-and-room'>
-    <h1>Select your room</h1>
-    <button>Next Step</button>
+    <h4>Step 1 / 4</h4>
+    <h2>Select Your Day and Room</h2>
+    <input class='datepicker' placeholder="Choose a Day"></input>
+    <select>
+      <option>Choose a Location</option>
+      <option value="Boston">Boston</option>
+      <option value="Cambridge">Cambridge</option>
+    </select>
+    <select>
+      <option>Choose a Room</option>
+      <option value="Jazz">Jazz</option>
+      <option value="Ringer">Ringer</option>
+      <option value="Thunderbird">Thunderbird</option>
+      <option value="Wave Machine">Wave Machine</option>
+    </select>
+    <button class='phone-button'>Next: View Schedule</button>
   </div>
+
   <div id='room-availability'>
-    <h1>Is it available</h1>
-    <button>Next Step</button>
-    <button>Previous Step</button>
+    <h4>Step 2 / 4</h4>
+    <h2>Schedule for the Day</h2>
+    <img class="schedule" src="img/scrolling.png" style="margin-top:5px"><br/>
+    <button class='phone-button'>Previous</button>
+    <button class='phone-button'>Next: Book Time</button>
   </div>
+
   <div id='set-booking-times'>
-    <h1>Pick some times</h1>
-    <button>Next Step</button>
-    <button>Previous Step</button>
+    <h4>Step 3 / 4</h4>
+    <h2>Select Time for Booking</h2>
+    Start Time: <input class='timepicker'></input>
+    End Time: <input class='timepicker'></input>
+    <button class='phone-button'>Previous</button>
+    <button class='phone-button'>Next: Review</button>
   </div>
+
   <div id='confirm-booking'>
-    <h1>Confirm this booking</h1>
-    <button>Confirm</button>
-    <button>Previous Step</button>
+    <h4>Step 4 / 4</h4>
+    <h2>Confirm this Booking</h2>
+    <h3>Room Name: </h3>
+    <h3>Date: </h3>
+    <h3>Time: </h3>
+    <button class='phone-button'>Previous</button>
+    <button class='phone-button'>Confirm</button>
   </div>
 
 <script type="text/javascript" src='js/jquery.js'></script>
@@ -37,5 +72,10 @@
 <script type="text/javascript" src='js/picker.date.js'></script>
 <script type="text/javascript" src='js/picker.time.js'></script>
 <script type="text/javascript" src='js/wobbe.js'></script>
+
+
+
+
 </body>
 </html>
+
